@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Converting from './components/Converting';
+import {SiConvertio } from 'react-icons/si';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h1 className='label'>Crypto Converter & Calculator</h1>
+      <Converting/>
+      <h1 style={{textAlign:'center'}} className='label'>Thanks for visiting !</h1>
     </div>
   );
 }
